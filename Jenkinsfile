@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/ajit010/ci-cd-pipeline.git'
+                git 'https://github.com/java-hangout/ci-cd-pipeline_fork.git'
             }
         }
 
